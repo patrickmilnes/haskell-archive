@@ -1,0 +1,7 @@
+Week 6:
+
+\x -> filter (<=10) (filter (>=0) x)
+\x -> [n*10 | n <- x]
+\x -> [foldr (*) 1 ([n, 10]) | n <- x] - Using 
+
+\(Loc name (Dot x y) values) target -> name == target
